@@ -45,12 +45,7 @@ export default function ForRecruitersPage() {
       </div>
 
       <div className="flex flex-wrap gap-3">
-        <a
-          href="/resume.pdf"
-          className="inline-flex items-center gap-2 bg-accent hover:bg-accent-dim transition-colors text-white text-sm px-4 py-2 rounded-lg"
-        >
-          <Download size={15} /> Download Resume
-        </a>
+        
         <a
           href={profile.socials.email}
           className="inline-flex items-center gap-2 border border-border hover:border-accent/50 transition-colors text-gray-200 text-sm px-4 py-2 rounded-lg"
