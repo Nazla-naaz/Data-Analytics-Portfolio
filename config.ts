@@ -7,12 +7,12 @@ export const profile = {
   // Circular headshot used on the About page and in the sidebar/hero.
   // Swap the file in /public to update it everywhere at once.
   photo: "/profile-nazla.png",
-  displayName: "Nazla.analyst",
+  displayName: "Nazla.K",
   role: "Data Analyst | Economics Graduate",
   tagline: "Turning data into insights that drive better decisions.",
-  location: "Kuthuparamba, Kannur, Kerala, India",
+  location: "Kannur, Kerala, India",
   education: {
-    degree: "BA Economics with Statistics",
+    degree: "BA Economics",
     college: "Nirmalagiri College, Kannur University",
     years: "2023 – 2026",
   },
@@ -31,9 +31,9 @@ export const profile = {
     "Certified by Google & AWS",
   ],
   socials: {
-    github: "https://github.com/your-username", // TODO: replace with your GitHub URL
-    linkedin: "https://linkedin.com/in/your-username", // TODO: replace with your LinkedIn URL
-    email: "mailto:nazla@example.com", // TODO: replace with your email
+    github:  "https://github.com/Nazla-naaz", // TODO: replace with your GitHub URL
+    linkedin: "https://www.linkedin.com/in/nazla-k-090561428", // TODO: replace with your LinkedIn URL
+    email: "mailto:knazlaofficial@gmail.com", // TODO: replace with your email
   },
 };
 
@@ -45,9 +45,7 @@ export const navigation = [
   { label: "Certifications", href: "/certifications" },
   { label: "Framework", href: "/framework" },
   { label: "About", href: "/about" },
-  { label: "Resume", href: "/resume" },
   { label: "Contact", href: "/contact" },
-  { label: "For Recruiters", href: "/for-recruiters" },
 ];
 
 export const heroStats = [
@@ -180,10 +178,10 @@ export const projects: Project[] = [
     category: "Google Analytics",
     domain: "Economic Research",
     tools: ["Google Analytics", "Excel", "SQL"],
-    headlineStat: { label: "GA Property ID", value: "192852264" },
+    headlineStat: { label: "Platform", value: "Google Analytics" },
     year: "2026",
     summary:
-      "An analysis of website traffic and user behaviour using Google Analytics (property ID 192852264), identifying acquisition channels and content that drove the most engaged sessions.",
+      "An analysis of website traffic and user behaviour using Google Analytics , identifying acquisition channels and content that drove the most engaged sessions.",
     coverGradient: "from-emerald-500/30 via-emerald-900/30 to-black",
     sections: [
       {
@@ -298,7 +296,7 @@ export const certifications = {
       tags: ["AWS", "Data Pipelines", "Cloud"],
     },
     {
-      issuer: "Simplilearn",
+      issuer: "Deloitte",
       title: "Data Analyst",
       meta: "2026",
       tags: ["SQL", "Python", "Power BI", "Excel"],
