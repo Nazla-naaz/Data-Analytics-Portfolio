@@ -51,7 +51,7 @@ export default function Sidebar() {
             {profile.displayName}
           </div>
           <div className="text-[10px] text-gray-500 tracking-wide leading-tight">
-            DATA PORTFOLIO
+            DATA ANALYST
           </div>
         </div>
       </Link>
